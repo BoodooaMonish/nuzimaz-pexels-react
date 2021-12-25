@@ -1,0 +1,11 @@
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    padding: 0.4rem 0.3rem 5rem 0.3rem;
+}
+
+@media (max-width: $breakpoint-sm) {
+    .wrapper {
+        padding-bottom: 7rem;
+    }
+}

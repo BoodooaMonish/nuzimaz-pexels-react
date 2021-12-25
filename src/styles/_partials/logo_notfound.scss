@@ -1,0 +1,24 @@
+@import "../variables.scss";
+
+.notFound {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding-top: $main-padding-top;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    &__text {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    &__logo {
+        fill: $color-primary;
+        margin: 0 auto;
+    }
+    &__btn {
+        align-self: center;
+    }
+}

@@ -1,0 +1,11 @@
+@import "../variables.scss";
+
+.logo__close__image {
+    fill: $color-primary;
+}
+button:hover .logo__close__image {
+    fill: $color-primary-dark;
+}
+button:focus .logo__close__image {
+    fill: $color-primary-dark;
+}

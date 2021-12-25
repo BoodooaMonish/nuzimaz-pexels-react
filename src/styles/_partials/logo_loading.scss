@@ -1,0 +1,28 @@
+@import "../variables.scss";
+
+.loading {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding-top: $main-padding-top;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    &__text {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    &__logo {
+        fill: $color-primary;
+        margin: 0 auto;
+        animation: spin 600ms linear infinite;
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,29 @@
+@import "../variables.scss";
+.btn {
+    background-color: $color-secondary;
+    color: $color-primary-dark;
+    border: 0.1rem solid $color-secondary;
+    padding: 0.6rem 1.4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    &:hover {
+        background-color: $color-primary-light;
+    }
+    &:focus {
+        background-color: $color-primary-dark;
+        color: $color-primary-light;
+        border: 0.1rem solid $color-primary-dark;
+    }
+    &__light {
+        background-color: $color-primary-light;
+        color: $color-primary-dark;
+        &:hover {
+            background-color: $color-primary-dark;
+            color: $color-primary-light;
+        }
+        &:focus {
+            background-color: $color-primary-dark;
+            color: $color-primary-light;
+        }
+    }
+}

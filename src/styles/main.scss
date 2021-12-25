@@ -1,0 +1,86 @@
+@import "./variables.scss";
+// font styles
+@font-face {
+    font-family: "nimbus";
+    src: url("../assets/font/NimbusSanL-Reg-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "nimbus";
+    src: url("../assets/font/NimbusSanL-Bol-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "nimbus", sans-serif, serif;
+    font-size: $fnt-size-400;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1rem;
+    font-size: $fnt-size-400;
+}
+input {
+    font-size: $fnt-size-400;
+    font-family: "nimbus", sans-serif, serif;
+    margin: 0;
+    padding: 0.25rem 0.5rem;
+}
+
+button {
+    font-size: $fnt-size-400;
+    cursor: pointer;
+    line-height: 1rem;
+    font-family: "nimbus", sans-serif, serif;
+}
+
+h1 {
+    font-size: $fnt-size-700;
+}
+
+h2 {
+    font-size: $fnt-size-600;
+}
+
+h3 {
+    font-size: $fnt-size-500;
+}
+
+h4 {
+    font-size: $fnt-size-400;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: $color-primary-dark;
+}
+
+@import "./_partials/wrapper";
+@import "./_partials/button";
+@import "./_partials/background";
+@import "./_partials/footer";
+@import "./_partials/navigation";
+@import "./_partials/logo_search";
+@import "./_partials/logo_company.scss";
+@import "./_partials/gallery.scss";
+@import "./_partials/pagination.scss";
+@import "./_partials/imageViewer.scss";
+@import "./_partials/logo_close.scss";
+@import "./_partials/search.scss";
+@import "./_partials/logo_loading.scss";
+@import "./_partials/logo_error.scss";
+@import "./_partials/logo_notfound.scss";

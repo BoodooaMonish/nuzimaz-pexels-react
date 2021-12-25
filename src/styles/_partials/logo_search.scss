@@ -1,0 +1,10 @@
+@import "../variables.scss";
+.search__logo {
+    fill: $color-primary;
+}
+button:hover .search__logo {
+    fill: $color-primary-light;
+}
+button:focus .search__logo {
+    fill: $color-primary-dark;
+}

@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.page {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding-top: $main-padding-top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    & > * {
+        margin: 0 0.3rem;
+    }
+}

@@ -1,0 +1,8 @@
+@import "../variables.scss";
+
+.logo__company {
+    filter: drop-shadow(0 0.1rem 0.1rem $color-primary-dark);
+    &__image {
+        fill: $color-primary-light;
+    }
+}
