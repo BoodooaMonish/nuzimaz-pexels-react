@@ -2,6 +2,8 @@
 
 > 'NUZIMAZ' is an image searcher website that uses the [pexels public api](https://www.pexels.com/api/) to search and browse royalty free images shared by [pexels](https://www.pexels.com/) creators.
 
+The website is currently hosted at https://nuzimaz-414bd5.netlify.app/
+
 ---
 
 ### TECHNOLOGIES USED
